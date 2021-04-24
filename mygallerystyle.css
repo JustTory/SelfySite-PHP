@@ -2,7 +2,7 @@ body {
   margin: 0px 0px 0px 0px;
 }
 
-.header {
+header {
   z-index: 1;
   position: fixed;
   top: 0px;
@@ -12,11 +12,15 @@ body {
   background: white;
 }
 
-.header img {
+header img {
   border-radius: 50%;
   height: 50px;
   max-width: 100%;
   align-self: center;
+}
+
+.active {
+  color: #e08b44;
 }
 
 .logo {
@@ -154,11 +158,11 @@ nav ul li a:hover::after {
 
 @media only screen and (max-width: 768px) {
 
-  .header {
+  header {
     height: 40px;
   }
 
-  .header img {
+  header img {
     height: 30px;
     position: absolute;
     top: 8px;

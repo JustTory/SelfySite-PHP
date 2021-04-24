@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
@@ -22,7 +22,9 @@
           <li><a href="aboutme.html">About Me</a></li>
         </ul>
       </nav>
-    </div>
+    </div> -->
+
+    <?php include "includes/header.php"; ?>
 
     <div class="title">
       <h2>Wallpaper goes brrrrrrrrrrt</h2>

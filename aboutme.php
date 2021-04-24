@@ -1,13 +1,9 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="aboutmestyle.css?v=<? echo time(); ?>">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Acme&family=Concert+One&family=Roboto:wght@900&family=Ubuntu:ital,wght@1,500&family=Work+Sans&display=swap" rel="stylesheet">
   <title>Selfy Site</title>
@@ -27,7 +23,9 @@
         </ul>
       </nav>
     </div>
-  </div> <!--end of header-->
+  </div> end of header -->
+
+  <?php include "includes/header.php"; ?>
 
   <div class="top-area">
     <div class="banner">
