@@ -78,7 +78,7 @@
       <div class="card">
         <div class="Skills">
           <ul>
-            <li>Coding: C++, Java, Html</li>
+            <li>Coding: C++, Java, Html/CSS/PHP, SQL</li>
             <li>Language: English and Vietnamese</li>
             <li>Good communication skills</li>
             <li>Confident</li>
