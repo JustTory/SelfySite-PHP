@@ -1,0 +1,340 @@
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  font-family: 'Concert One', cursive;
+  background: white;
+}
+
+.header img {
+  border-radius: 50%;
+  height: 50px;
+  max-width: 100%;
+  align-self: center;
+}
+
+.logo {
+  display:flex;
+  position: absolute;
+  left: 30px;
+  height: 100%;
+}
+
+.logo h3 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.navbar {
+  position: absolute;
+  right: 5px;
+  height: 100%;
+}
+
+nav ul {
+  display: flex;
+  height: 100%;
+  margin: 15px 0px 0px 0px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  margin-right: 70px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: #626D77;
+  font-size: 25px;
+  transition: color 500ms;
+}
+
+#AboutMe {
+  color: #e08b44;
+}
+
+nav ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 32px;
+  left: 0;
+  background: #4897ad;
+  transition: transform 500ms;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+nav ul li a:hover {
+  color: #e08b44 !important;
+}
+nav ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.banner {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background: url(images/aboutmebg.jpg);
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2%;
+  width: 70%;
+}
+
+.banner-text {
+  margin: auto;
+  font-size: 30px;
+}
+
+.banner-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-avatar img {
+  border-radius: 50%;
+  height: 250px;
+  max-width: 100%;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.name h2 {
+  text-align: center;
+}
+
+.Personal-information {
+  margin: 7% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 7%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
+}
+
+.card {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+  height: 50vh;
+  transition: 500ms;
+  border-radius: 3%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80% 20%;
+}
+
+.card:hover {
+  box-shadow: 0 22px 32px 0 rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+
+.list-name {
+    display: flex;
+    justify-content: center;
+}
+
+.list-name-container h2 {
+  text-align: center;
+}
+.list-name-container {
+    display: grid;
+    width: 60%;
+    grid-template-columns: 70% 30%;
+}
+
+.img-container {
+  width: 50px;
+  height: 100%;
+}
+.img-container img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.card li{
+  font-size: 23px;
+  margin: 20px 10px;
+}
+.card h2{
+  font-size: 35px;
+}
+.socialmedia ul {
+  display: grid;
+  grid-gap: 60px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gri: 40vh;
+  margin: 0;
+}
+.socialmedia ul li {
+  list-style: none;
+}
+.socialmedia ul li a {
+  text-decoration: none;
+  margin-right: 40px;
+  transition: box-shadow 500ms;
+}
+
+.socialmedia ul li a:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+}
+
+@media only screen and (max-width: 768px) {
+
+  .header {
+    height: 40px;
+  }
+
+  .header img {
+    height: 30px;
+    position: absolute;
+    top: 8px;
+  }
+
+  .logo {
+    display:flex;
+    position: absolute;
+    left: 10px;
+    height: 100%;
+  }
+
+  .logo h3 {
+    font-size: 8px;
+    margin-top: 17px;
+    margin-left: 40px;
+  }
+
+  .navbar {
+    position: absolute;
+    right: 0px;
+    height: 100%;
+  }
+  nav ul li {
+    list-style: none;
+  }
+
+  nav ul li a {
+    font-size: 11px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  .banner {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: url(images/aboutmebg.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    width: 100%;
+  }
+
+  .banner-text {
+    margin: auto;
+    font-size: 15px;
+  }
+
+  .banner-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-avatar img {
+    border-radius: 50%;
+    height: 120px;
+    max-width: 100%;
+  }
+
+  .name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+
+  .name h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .Personal-information {
+    margin: 30% 5%;
+    grid-template-columns: 100%;
+    grid-gap: 5%;
+  }
+
+  .card {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    height: 40vh;
+    transition: 500ms;
+    border-radius: 3%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+  }
+
+  .card li{
+    font-size: 16px;
+    margin: 0;
+  }
+  .card h2{
+    font-size: 23px;
+  }
+
+  .socialmedia ul{
+    grid-gap: 60px;
+    padding: 10px 0px 0px 10px;
+  }
+  .socialmedia ul li a {
+    margin-right: 30px;
+  }
+
+  .socialmedia ul li a img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .socialmedia ul li a:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+  }
+
+  .img-container {
+    width: 30px;
+    height: 100%;
+  }
+}
