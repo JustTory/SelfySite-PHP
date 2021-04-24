@@ -19,6 +19,20 @@ header img {
   align-self: center;
 }
 
+footer {
+  margin-top: 200px;
+  text-align: center;
+  padding: 15px;
+  background-color: #e08b44;
+}
+
+.footer-content {
+  font-family: 'Concert One', cursive;
+  color: white;
+  padding: 0;
+  margin: 0;;
+}
+
 .active {
   color: #e08b44;
 }
@@ -145,7 +159,7 @@ nav ul li a:hover::after {
 
 .card {
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
-  height: 50vh;
+  height: 60vh;
   transition: 500ms;
   border-radius: 3%;
   display: grid;
@@ -192,7 +206,6 @@ nav ul li a:hover::after {
   display: grid;
   grid-gap: 60px;
   grid-template-columns: 1fr 1fr 1fr;
-  gri: 40vh;
   margin: 0;
 }
 .socialmedia ul li {

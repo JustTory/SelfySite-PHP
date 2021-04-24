@@ -1,31 +1,4 @@
-<!-- <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="aboutmestyle.css?v=<? echo time(); ?>">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Concert+One&family=Roboto:wght@900&family=Ubuntu:ital,wght@1,500&family=Work+Sans&display=swap" rel="stylesheet">
-  <title>Selfy Site</title>
-</head>
-<body>
-  <div class="header">
-    <div class="logo">
-      <img src="images\avatar.jpg" alt="avatar">
-      <h3>QUAN MINH TRÍ</h3>
-    </div>
-    <div class="navbar">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="mygallery.html">My Gallery</a></li>
-          <li><a href="aboutme.html" id="AboutMe">About Me</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div> end of header -->
-
-  <?php include "includes/header.php"; ?>
+<?php include "includes/header.php"; ?>
 
   <div class="top-area">
     <div class="banner">
@@ -148,5 +121,4 @@
     </div>
   </div>
 
-</body>
-</html>
+<?php include "includes/footer.php"; ?>  

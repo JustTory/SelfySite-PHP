@@ -19,6 +19,20 @@ header img {
   align-self: center;
 }
 
+footer {
+  margin-top: 200px;
+  text-align: center;
+  padding: 15px;
+  background-color: #e08b44;
+}
+
+.footer-content {
+  font-family: 'Concert One', cursive;
+  color: white;
+  padding: 0;
+  margin: 0;;
+}
+
 .active {
   color: #e08b44;
 }
