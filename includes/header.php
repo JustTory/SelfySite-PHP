@@ -53,6 +53,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="<?php echo $PHPName . "style";?>.css?v=<? echo time(); ?>">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="icon" href="images\avatar.jpg">
   <link
     href="https://fonts.googleapis.com/css2?family=Acme&family=Concert+One&family=Roboto:wght@900&family=Ubuntu:ital,wght@1,500&family=Work+Sans&display=swap"
     rel="stylesheet">
