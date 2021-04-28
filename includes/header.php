@@ -57,7 +57,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Acme&family=Concert+One&family=Roboto:wght@900&family=Ubuntu:ital,wght@1,500&family=Work+Sans&display=swap"
     rel="stylesheet">
-  <title>Selfy Site PHP |
+  <title>Selfy Site | 
   <?php 
     echo PHPNameToPageName($PHPName);
   ?>
